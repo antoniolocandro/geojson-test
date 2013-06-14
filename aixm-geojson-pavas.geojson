@@ -1,0 +1,98 @@
+{
+  "message:AIXMBasicMessage": {
+    "-xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+    "-xmlns": "http://www.aixm.aero/schema/5.1/message",
+    "-gml:id": "M000001",
+    "-xsi:schemaLocation": "http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd http://www.opengis.net/gml/3.2 http://www.aixm.aero/gallery/content/public/schema/5.1/ISO_19136_Schemas/gml.xsd http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/gallery/content/public/schema/5.1/message/AIXM_BasicMessage.xsd http://www.isotc211.org/2005/gmd http://www.aixm.aero/gallery/content/public/schema/5.1/ISO_19139_Schemas/gmd/gmd.xsd http://www.aixm.aero/schema/5.1/event http://www.aixm.aero/gallery/content/public/schema/5.1/event/Event_Features.xsd http://www.w3.org/1999/xlink http://www.aixm.aero/gallery/content/public/schema/5.1/xlink/xlinks.xsd ",
+    "-xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+    "-xmlns:easm": "http://www.aixm.aero/schema/5.1/extensions/EUR/eASM",
+    "-xmlns:ead": "http://www.aixm.aero/schema/5.1/extensions/EUR/EAD/Slot",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xmlns:xlink": "http://www.w3.org/1999/xlink",
+    "-xmlns:event": "http://www.aixm.aero/schema/5.1/event",
+    "-xmlns:iso19115": "http://www.isotc211.org/2005/gmd",
+    "-xmlns:aixm": "http://www.aixm.aero/schema/5.1",
+    "-xmlns:gss": "http://www.isotc211.org/2005/gss",
+    "-xmlns:gml": "http://www.opengis.net/gml/3.2",
+    "-xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "-xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "-xmlns:gts": "http://www.isotc211.org/2005/gts",
+    "-xmlns:message": "http://www.aixm.aero/schema/5.1/message",
+    "message:hasMember": {
+      "aixm:Airspace": {
+        "-gml:id": "PAVAS",
+        "gml:identifier": {
+          "-codeSpace": "urn:uuid:",
+          "#text": "3CA76720-DAB5-46E0-AE48-42DF299F76A6"
+        },
+        "aixm:timeSlice": {
+          "aixm:AirspaceTimeSlice": {
+            "-gml:id": "ID001",
+            "gml:validTime": {
+              "gml:TimePeriod": {
+                "-gml:id": "VID000003",
+                "gml:beginPosition": "2013-04-22T00:00:00Z",
+                "gml:endPosition": "2013-04-22T00:00:00Z"
+              }
+            },
+            "aixm:interpretation": "BASELINE",
+            "aixm:sequenceNumber": "1",
+            "aixm:correctionNumber": "0",
+            "aixm:featureLifetime": {
+              "gml:TimePeriod": {
+                "-gml:id": "VID000004",
+                "gml:beginPosition": "2013-04-22T00:00:00Z",
+                "gml:endPosition": "2013-04-22T00:00:00Z"
+              }
+            },
+            "aixm:type": "ATZ",
+            "aixm:designator": "PAVAS",
+            "aixm:name": "PAVAS",
+            "aixm:geometryComponent": {
+              "aixm:AirspaceGeometryComponent": {
+                "-gml:id": "C001",
+                "aixm:theAirspaceVolume": {
+                  "aixm:AirspaceVolume": {
+                    "-gml:id": "V001",
+                    "aixm:upperLimit": {
+                      "-uom": "FL",
+                      "#text": "550"
+                    },
+                    "aixm:upperLimitReference": "STD",
+                    "aixm:lowerLimit": {
+                      "-uom": "FL",
+                      "#text": "000"
+                    },
+                    "aixm:lowerLimitReference": "STD",
+                    "aixm:horizontalProjection": {
+                      "aixm:Surface": {
+                        "-gml:id": "S001",
+                        "-srsName": "urn:ogc:def:crs:EPSG::4326",
+                        "gml:polygonPatches": {
+                          "gml:PolygonPatch": {
+                            "gml:exterior": {
+                              "gml:Ring": {
+                                "gml:curveMember": {
+                                  "gml:Curve": {
+                                    "-gml:id": "CUR001",
+                                    "gml:segments": {
+                                      "gml:GeodesicString": { "gml:posList": "9.987444444444444 -84.0505 9.977555555555556 -84.1430555555556 9.935111111111111 -84.2420277777778 9.908888888888889 -84.2420277777778 9.908777777777779 -84.0505555555555                   " }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
